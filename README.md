@@ -11,6 +11,7 @@
 #This script is being updated every 10 minutes using crontab rules: 
 
 @reboot /root/bin/monitor/monitoring.sh | wall
+
 */10 * * * * /root/bin/monitor/monitoring.sh | wall
 
 #/root/bin/monitor/monitoring.sh is Path to monitoring.sh in the virtual machine. 
